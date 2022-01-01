@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    margin: 8px;
+    font-family: verdana;
+    font-size: 14px;
+}
+
+.top {
+    font-size: 16px;
+    text-align: center;
+}
+
+.top>a {
+    text-decoration: none;
+}
+
+.top>.links>a {
+    margin-right: 1em;
+}
+
+main {
+    margin: auto;
+    width: 830px;
+    box-sizing: border-box;
+}
+
+main>.content {
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    padding: 10px 5%;
+    line-height: 1.4;
+}
+
+.hdr-title {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+    margin-bottom: 5px;
+}
